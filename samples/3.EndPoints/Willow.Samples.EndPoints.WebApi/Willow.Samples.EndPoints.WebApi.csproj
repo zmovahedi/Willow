@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\4.EndPoints\Willow.EndPoints.WebApi\Willow.EndPoints.WebApi.csproj" />
+    <ProjectReference Include="..\..\1.Core\Willow.Samples.Core.Contracts\Willow.Samples.Core.Contracts.csproj" />
+    <ProjectReference Include="..\..\1.Core\Willow.Samples.Core.Domain\Willow.Samples.Core.Domain.csproj" />
+    <ProjectReference Include="..\..\2.Infra\Data\Willow.Samples.Infra.Data.SqlCommands\Willow.Samples.Infra.Data.SqlCommands.csproj" />
+    <ProjectReference Include="..\..\2.Infra\Data\Willow.Samples.Infra.Data.SqlQueries\Willow.Samples.Infra.Data.SqlQueries.csproj" />
+  </ItemGroup>
+
+</Project>

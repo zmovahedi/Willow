@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\src\3.Infra\Data\Willow.Infra.Data.Sql.Queries\Willow.Infra.Data.Sql.Queries.csproj" />
+    <ProjectReference Include="..\..\..\1.Core\Willow.Samples.Core.Contracts\Willow.Samples.Core.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\1.Utilities\Willow.Utilities\Willow.Utilities.csproj" />
+    <ProjectReference Include="..\Willow.Contracts\Willow.Contracts.csproj" />
+    <ProjectReference Include="..\Willow.Core.Domain\Willow.Core.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
