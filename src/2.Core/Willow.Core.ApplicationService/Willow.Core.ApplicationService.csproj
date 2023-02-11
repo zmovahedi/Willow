@@ -14,7 +14,7 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\..\1.Utilities\Willow.Utilities\Willow.Utilities.csproj" />
-		<ProjectReference Include="..\Willow.Contracts\Willow.Core.Contracts.csproj" />
+		<ProjectReference Include="..\Willow.Core.Contracts\Willow.Core.Contracts.csproj" />
 		<ProjectReference Include="..\Willow.Core.Domain\Willow.Core.Domain.csproj" />
 	</ItemGroup>
 
