@@ -12,7 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\1.Utilities\Willow.Utilities\Willow.Utilities.csproj" />
-    <ProjectReference Include="..\..\2.Core\Willow.Contracts\Willow.Contracts.csproj" />
+    <ProjectReference Include="..\..\2.Core\Willow.Contracts\Willow.Core.Contracts.csproj" />
     <ProjectReference Include="..\..\2.Core\Willow.Core.ApplicationService\Willow.Core.ApplicationService.csproj" />
     <ProjectReference Include="..\..\2.Core\Willow.Core.Domain\Willow.Core.Domain.csproj" />
     <ProjectReference Include="..\..\3.Infra\Data\Willow.Infra.Data.Sql.Commands\Willow.Infra.Data.Sql.Commands.csproj" />

@@ -23,37 +23,39 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Infra", "2.Infra", "{AD91
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.EndPoints", "3.EndPoints", "{3C57945E-9984-4B8D-AA19-BD9A4EF4E6DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Willow.Utilities", "src\1.Utilities\Willow.Utilities\Willow.Utilities.csproj", "{2141A477-04F3-4D58-9E08-EA8AE36BC5DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Willow.Utilities", "src\1.Utilities\Willow.Utilities\Willow.Utilities.csproj", "{2141A477-04F3-4D58-9E08-EA8AE36BC5DC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Willow.Core.Domain", "src\2.Core\Willow.Core.Domain\Willow.Core.Domain.csproj", "{B7FE21E9-5596-4CD5-A609-70772D25D196}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Willow.Core.ApplicationService", "src\2.Core\Willow.Core.ApplicationService\Willow.Core.ApplicationService.csproj", "{50B39798-5C92-4427-80E3-3B495227F6A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Willow.Core.ApplicationService", "src\2.Core\Willow.Core.ApplicationService\Willow.Core.ApplicationService.csproj", "{50B39798-5C92-4427-80E3-3B495227F6A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Willow.Contracts", "src\2.Core\Willow.Contracts\Willow.Contracts.csproj", "{E3AEB2FB-F396-4509-A266-00C4EF640D04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Willow.Core.Contracts", "src\2.Core\Willow.Core.Contracts\Willow.Core.Contracts.csproj", "{E3AEB2FB-F396-4509-A266-00C4EF640D04}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{C1EDC63B-57C5-4483-8EF4-D2A21D8C5FB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Willow.Infra.Data.Sql.Commands", "src\3.Infra\Data\Willow.Infra.Data.Sql.Commands\Willow.Infra.Data.Sql.Commands.csproj", "{A7273377-2E2A-4E9D-BEBC-5523D9BFCF28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Willow.Infra.Data.Sql.Commands", "src\3.Infra\Data\Willow.Infra.Data.Sql.Commands\Willow.Infra.Data.Sql.Commands.csproj", "{A7273377-2E2A-4E9D-BEBC-5523D9BFCF28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Willow.Infra.Data.Sql.Queries", "src\3.Infra\Data\Willow.Infra.Data.Sql.Queries\Willow.Infra.Data.Sql.Queries.csproj", "{4855B9A1-45A1-434E-860E-9C9FD366B8E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Willow.Infra.Data.Sql.Queries", "src\3.Infra\Data\Willow.Infra.Data.Sql.Queries\Willow.Infra.Data.Sql.Queries.csproj", "{4855B9A1-45A1-434E-860E-9C9FD366B8E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Willow.Infra.Data.Sql", "src\3.Infra\Data\Willow.Infra.Data.Sql\Willow.Infra.Data.Sql.csproj", "{347D180E-A5D1-4B05-A6E1-C77F4C4F43DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Willow.Infra.Data.Sql", "src\3.Infra\Data\Willow.Infra.Data.Sql\Willow.Infra.Data.Sql.csproj", "{347D180E-A5D1-4B05-A6E1-C77F4C4F43DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Willow.EndPoints.WebApi", "src\4.EndPoints\Willow.EndPoints.WebApi\Willow.EndPoints.WebApi.csproj", "{FF2C7B77-5D7C-4DCC-94A3-871C7F318DB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Willow.EndPoints.WebApi", "src\4.EndPoints\Willow.EndPoints.WebApi\Willow.EndPoints.WebApi.csproj", "{FF2C7B77-5D7C-4DCC-94A3-871C7F318DB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Willow.Samples.Core.Domain", "samples\1.Core\Willow.Samples.Core.Domain\Willow.Samples.Core.Domain.csproj", "{695ECD5A-D7CD-415D-AB23-1125FBFE2281}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Willow.Samples.Core.Domain", "samples\1.Core\Willow.Samples.Core.Domain\Willow.Samples.Core.Domain.csproj", "{695ECD5A-D7CD-415D-AB23-1125FBFE2281}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Willow.Samples.Core.Contracts", "samples\1.Core\Willow.Samples.Core.Contracts\Willow.Samples.Core.Contracts.csproj", "{35469056-E758-49B7-A2D4-80E629BB9E8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Willow.Samples.Core.Contracts", "samples\1.Core\Willow.Samples.Core.Contracts\Willow.Samples.Core.Contracts.csproj", "{35469056-E758-49B7-A2D4-80E629BB9E8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Willow.Samples.Core.ApplicationService", "samples\1.Core\Willow.Samples.Core.ApplicationService\Willow.Samples.Core.ApplicationService.csproj", "{A389CF12-1FBC-494A-A0DA-B25D07F841E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Willow.Samples.Core.ApplicationService", "samples\1.Core\Willow.Samples.Core.ApplicationService\Willow.Samples.Core.ApplicationService.csproj", "{A389CF12-1FBC-494A-A0DA-B25D07F841E2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{515C540F-E1F0-4551-A1E3-1BD3E622FF6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Willow.Samples.Infra.Data.SqlCommands", "samples\2.Infra\Data\Willow.Samples.Infra.Data.SqlCommands\Willow.Samples.Infra.Data.SqlCommands.csproj", "{155FE88D-5959-43D8-B9EC-7258E646DD94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Willow.Samples.Infra.Data.SqlCommands", "samples\2.Infra\Data\Willow.Samples.Infra.Data.SqlCommands\Willow.Samples.Infra.Data.SqlCommands.csproj", "{155FE88D-5959-43D8-B9EC-7258E646DD94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Willow.Samples.Infra.Data.SqlQueries", "samples\2.Infra\Data\Willow.Samples.Infra.Data.SqlQueries\Willow.Samples.Infra.Data.SqlQueries.csproj", "{5CD41588-1CBE-495D-ADD5-47F2C2FABCAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Willow.Samples.Infra.Data.SqlQueries", "samples\2.Infra\Data\Willow.Samples.Infra.Data.SqlQueries\Willow.Samples.Infra.Data.SqlQueries.csproj", "{5CD41588-1CBE-495D-ADD5-47F2C2FABCAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Willow.Samples.EndPoints.WebApi", "samples\3.EndPoints\Willow.Samples.EndPoints.WebApi\Willow.Samples.EndPoints.WebApi.csproj", "{477C6D66-997D-4283-BE30-5E4DBCC0940A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Willow.Samples.EndPoints.WebApi", "samples\3.EndPoints\Willow.Samples.EndPoints.WebApi\Willow.Samples.EndPoints.WebApi.csproj", "{477C6D66-997D-4283-BE30-5E4DBCC0940A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Willow.Core.Domain.Toolkits", "src\2.Core\Willow.Core.Domain.Toolkits\Willow.Core.Domain.Toolkits.csproj", "{BEA3F906-4B2E-4208-A250-D5F11818350A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{477C6D66-997D-4283-BE30-5E4DBCC0940A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{477C6D66-997D-4283-BE30-5E4DBCC0940A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{477C6D66-997D-4283-BE30-5E4DBCC0940A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEA3F906-4B2E-4208-A250-D5F11818350A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEA3F906-4B2E-4208-A250-D5F11818350A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEA3F906-4B2E-4208-A250-D5F11818350A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEA3F906-4B2E-4208-A250-D5F11818350A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -145,6 +151,7 @@ Global
 		{155FE88D-5959-43D8-B9EC-7258E646DD94} = {515C540F-E1F0-4551-A1E3-1BD3E622FF6B}
 		{5CD41588-1CBE-495D-ADD5-47F2C2FABCAE} = {515C540F-E1F0-4551-A1E3-1BD3E622FF6B}
 		{477C6D66-997D-4283-BE30-5E4DBCC0940A} = {3C57945E-9984-4B8D-AA19-BD9A4EF4E6DB}
+		{BEA3F906-4B2E-4208-A250-D5F11818350A} = {CC179572-3A16-44ED-A2B8-D930A7117745}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FF2376BB-5AA0-46DE-886B-0348F2E7B81E}
