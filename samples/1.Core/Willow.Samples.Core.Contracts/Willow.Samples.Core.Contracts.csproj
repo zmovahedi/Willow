@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\src\2.Core\Willow.Contracts\Willow.Core.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\src\2.Core\Willow.Core.Contracts\Willow.Core.Contracts.csproj" />
     <ProjectReference Include="..\Willow.Samples.Core.Domain\Willow.Samples.Core.Domain.csproj" />
   </ItemGroup>
 

@@ -7,8 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\..\1.Utilities\Willow.Utilities\Willow.Utilities.csproj" />
-    <ProjectReference Include="..\..\..\2.Core\Willow.Contracts\Willow.Core.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\2.Core\Willow.Core.Contracts\Willow.Core.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\2.Core\Willow.Core.Domain.Toolkits\Willow.Core.Domain.Toolkits.csproj" />
     <ProjectReference Include="..\..\..\2.Core\Willow.Core.Domain\Willow.Core.Domain.csproj" />
     <ProjectReference Include="..\Willow.Infra.Data.Sql\Willow.Infra.Data.Sql.csproj" />
   </ItemGroup>
